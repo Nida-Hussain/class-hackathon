@@ -7,20 +7,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <div className="min-h-[70vh] flex flex-col items-center justify-center text-center">
-      {/* 404 Animation Container */}
-      <div className="mb-8">
-        {/* Large 404 Text */}
-        <h1 className="text-8xl sm:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 mb-4">
-          404
-        </h1>
-        
-        {/* Decorative Elements */}
-        <div className="flex justify-center gap-4 text-4xl sm:text-5xl">
-          <span className="animate-bounce" style={{ animationDelay: "0ms" }}>🔍</span>
-          <span className="animate-bounce" style={{ animationDelay: "150ms" }}>❓</span>
-          <span className="animate-bounce" style={{ animationDelay: "300ms" }}>🤔</span>
-        </div>
-      </div>
+     
 
       {/* Error Message */}
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
